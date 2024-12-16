@@ -18,7 +18,7 @@ jobs:
     build:
         name: Sphinx build
 
-        runs-on: ubuntu-latest
+        runs-on: [ 'lendable-medium-dind-x64-linux' ]
 
         steps:
             - name: Checkout
@@ -52,7 +52,7 @@ jobs:
     doctor-rst:
         name: DOCtor-RST
 
-        runs-on: ubuntu-latest
+        runs-on: [ 'lendable-medium-dind-x64-linux' ]
 
         steps:
             - name: Checkout
